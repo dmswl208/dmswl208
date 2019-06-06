@@ -1,0 +1,202 @@
+@charset "utf-8";
+@media screen and (max-width:999px){
+
+ header {
+   padding:18px 5%;
+ }
+  .menu_icon {
+    display: block;
+    position:absolute;
+    padding:28px 20px;
+    right:0;
+    top:0;
+  }
+.menu_icon  .navicon{
+   background-color: #333;
+   display: block;
+   height:2px;
+   position: relative;
+   width:18px;
+   transition: all 0.2s;
+}
+.menu_icon  .navicon:after,
+.menu_icon  .navicon:before{
+  background-color: #333;
+  display:block;
+  content:"";
+  position: absolute;
+  transition: all 0.2s;
+  width:100%;
+  height: 100%;
+}
+.menu_icon  .navicon:before{
+  top:5px;
+}
+.menu_icon  .navicon:after{
+  top:-5px;
+}
+header .nav {
+  float:none;
+  position: absolute;
+  top:62px;
+  width:100%;
+  left:0;
+  display: none;
+}
+header .nav li{
+  float:none;
+  background-color:  #676767;
+  border-bottom: 1px solid #fff;
+margin-right: 0;
+}
+header .nav li a{
+  color:#fff;
+  line-height: 40px;
+  padding-left: 40px;
+}
+
+.menu_btn:checked ~ .nav {
+  display:block;
+}
+.menu_btn:checked ~ .menu_icon .navicon {
+  background-color: transparent;
+}
+.menu_btn:checked ~ .menu_icon .navicon:before {
+  transform: rotate(-45deg);
+  top:0;
+}
+.menu_btn:checked ~ .menu_icon .navicon:after {
+  transform: rotate(45deg);
+  top:0;
+}
+
+.visual {
+  height: 360px;
+}
+.container{
+  padding-top:59px;
+}
+.sec_tit{
+  float:none;
+  text-align: center;
+}
+.cont_box {
+  float:none;
+  text-align: center;
+ padding-left: 0;
+ margin-top:30px;
+}
+.cont_box:before {
+  display:none;
+}
+.depth02 {
+  margin:0 0 59px;
+}
+.promo_list li {
+  display: block;
+  width:100%;
+  margin-top:52px;
+}
+.work_tit{
+  text-align: center;
+  margin-bottom:42px;
+}
+.work_list li{
+  width:50%;
+}
+
+.blog_list{
+  margin-top: 47px;
+  float: none;
+  width: auto;
+}
+
+.form_box{
+  float:none;
+  width: auto;
+  margin-top: 36px;
+}
+.form_in>div{
+  float: none;
+  width: auto;
+  margin: 0;
+}
+
+.footer iframe{
+  height: 320px;
+}
+#slider_wrap
+{height: 360px;}
+.sl_01 {
+  background: url(../img/1.jpg) no-repeat center top;
+}
+.sl_02 {
+  background: url(../img/2.jpg) no-repeat center;
+}
+.sl_03 {
+  background: url(../img/3.jpg) no-repeat center;
+}
+}
+@media screen and (max-width:599px){
+  #wrap{
+    min-width:360px;
+  }
+  .work_list li{
+    width:100%;
+  }
+  .blog_list li {
+    width: 100%;
+    margin:45px 0 0;
+  }
+  .side_btn{
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*  */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+@media screen and (max-width:599px){
+
+}
